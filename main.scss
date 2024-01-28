@@ -177,7 +177,7 @@ ul,li,button,p,div {
         z-index: 1;
         position: relative;
         padding-bottom: 200px;
-        height: 2000px;
+        height: 1200px;
         .pj_item{
             margin-left: 52px;
             &:nth-child(2){
@@ -187,8 +187,8 @@ ul,li,button,p,div {
             }
             &:last-child{
                 position: absolute;
-                left: calc(50%-240px);
-                bottom: 220px;
+                left: 25%;
+                bottom: 12%;
             }
             .pj_info{
                 color: #fff;

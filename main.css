@@ -173,7 +173,7 @@ ul, li, button, p, div {
   z-index: 1;
   position: relative;
   padding-bottom: 200px;
-  height: 2000px;
+  height: 1200px;
 }
 .third_section .project_wrap .pj_item {
   margin-left: 52px;
@@ -185,7 +185,8 @@ ul, li, button, p, div {
 }
 .third_section .project_wrap .pj_item:last-child {
   position: absolute;
-  bottom: 220px;
+  left: 25%;
+  bottom: 12%;
 }
 .third_section .project_wrap .pj_item .pj_info {
   color: #fff;
