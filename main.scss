@@ -177,15 +177,17 @@ ul,li,button,p,div {
         z-index: 1;
         position: relative;
         padding-bottom: 200px;
+        height: 2000px;
         .pj_item{
             margin-left: 52px;
             &:nth-child(2){
                 position: absolute;
-                top :32%;
-                right: 52px;
+                top :24%;
+                right: 4%;
             }
             &:last-child{
                 position: absolute;
+                left: calc(50%-240px);
                 bottom: 220px;
             }
             .pj_info{
