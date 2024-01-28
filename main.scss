@@ -1,0 +1,244 @@
+
+@font-face {
+    font-family: "Montreal";
+    src: url("./font/PPNeueMontreal-Book.woff") format("woff");
+
+}
+@font-face {
+    font-family: "Montreal_italic";
+    src: url("./font/PPNeueMontreal-Italic.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Editorial";
+    src:url("./font/PPEditorialNew-Ultralight.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Editorial_italic";
+    src:url("./font/PPEditorialNew-UltralightItalic.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family:"Montreal", "Editorial", "Montreal_italic", "Editorial_italic", 'Pretendard-Regular';
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    padding: 0;
+    margin: 0px;
+
+}
+ul,li,button,p,div {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.main_section{
+    width: 100%;
+    height: 1300px;
+    position: relative;
+    .pdf_btn{
+        display: flex;
+        gap: 4px;
+        position: absolute;
+        top: 46px;
+        right: 52px; 
+        width: 220px;
+        height: 48px;
+        border: 1px solid #000;
+        padding-top: 12px;
+        box-sizing: border-box;
+        border-radius: 12px;
+        justify-content: center;
+        align-items: center;
+        .btn_txt{
+            text-align: center;
+            font-size: 24px;
+            padding-bottom: 12px;
+            box-sizing: border-box;
+        }
+    }
+    .main_title{
+        padding: 200px 52px 0 52px;
+        box-sizing: border-box;
+        position: relative;
+        .main_copy{
+            font-size: 24vh;
+            .first_line{
+                display: flex;
+                gap: 54px;
+                span{
+                    font-family: "Montreal_italic";
+                }
+            }
+            p{
+                font-family: "editorial_italic";
+                font-size: 28vh;
+                position: absolute;
+                right: 52px;
+            }
+        }
+        .sub_copy{
+            margin-top: 68px;
+            margin-left: 68px;
+            li{
+                font-size: 20px;
+                margin-top: 8px;
+                &:first-child{
+                    font-size: 36px;
+                    span{
+                        font-family: "editorial_italic";
+                    }
+                }
+            }
+        }
+    }
+    .image{
+        position: absolute;
+        bottom: 0;
+        padding: 0 52px;
+        box-sizing: border-box;
+        width: 100%;
+        img{
+            width: 100%;
+            height: 380px;
+        }
+    }
+}
+
+.second_section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding: 0 52px;
+    box-sizing: border-box;
+    .title{
+        font-size: 80px;
+    }
+    .info_section{
+        width: 480px;
+        margin-top: 52px;
+        .info{
+            display: flex;
+            gap: 32px;
+            font-size: 20px;
+            padding: 24px 0;
+            border-bottom: 1px solid #000;
+            align-items: center;
+            margin-right: 28px;
+            &:nth-child(4){
+                align-items: start;
+            }
+            &:first-child{
+                padding-top: 0;
+            }
+            .info_tit{
+                width: 160px;
+            }
+            .info_sub{
+                li{
+                    margin-top: 16px;
+                    &:first-child{
+                        margin-top: 0;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+
+.third_section{
+    margin-top: 200px;
+    background-color: #000;
+    position: relative;
+    padding-top:32vh;
+    .bg_txt{
+        color: #fff;
+        position: sticky;
+        width:3000vh;
+        top: 32vh;
+        font-family: "Editorial";
+        font-size: 36vh;
+        vertical-align: baseline;
+        animation: tt1 100s linear infinite;
+        
+    }
+    .project_wrap{
+        margin-top:-60vh;
+        z-index: 1;
+        position: relative;
+        padding-bottom: 200px;
+        .pj_item{
+            margin-left: 52px;
+            .pj_info{
+                color: #fff;
+                font-size: 20px;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+.list_section{
+    margin-top: 154px;
+    .list_title{
+        font-size: 32px;
+        margin-left: 52px;
+    }
+    ul{
+        margin-top: 24px;
+        li{
+            font-size: 12vh;
+            padding: 32px 0 32px 52px;
+            border-top: 1px solid #000;
+            span{
+                font-family: "editorial_italic";
+            }
+            &:last-child{
+                border-bottom: 1px solid #000;
+            }
+        }
+    }
+
+}
+
+.last_section{
+    .title{
+        padding: 200px 52px 0 52px;
+        box-sizing: border-box;
+        position: relative;
+        .copy{
+            font-size: 24vh;
+            .first_line{
+                display: flex;
+                gap: 54px;
+                span{
+                    font-family: "Montreal_italic";
+                }
+            }
+            p{
+                font-family: "editorial_italic";
+                font-size: 28vh;
+                position: absolute;
+                right: 52px;
+            }
+        }
+    }
+}
+@keyframes tt1{
+    0%{
+        transform: translate3d(0, 0, 0);
+    }
+    100%{
+        transform: translate3d(-3000vh, 0, 0);
+    }
+}
