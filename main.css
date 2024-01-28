@@ -166,7 +166,7 @@ ul, li, button, p, div {
   font-family: "Editorial";
   font-size: 36vh;
   vertical-align: baseline;
-  animation: tt1 100s linear infinite;
+  animation: tt1 150s linear infinite;
 }
 .third_section .project_wrap {
   margin-top: -60vh;
@@ -195,7 +195,7 @@ ul, li, button, p, div {
 }
 .list_section ul li {
   font-size: 12vh;
-  padding: 32px 0 32px 52px;
+  padding: 24px 52px;
   border-top: 1px solid #000;
 }
 .list_section ul li span {
