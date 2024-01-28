@@ -177,6 +177,15 @@ ul, li, button, p, div {
 .third_section .project_wrap .pj_item {
   margin-left: 52px;
 }
+.third_section .project_wrap .pj_item:nth-child(2) {
+  position: absolute;
+  top: 32%;
+  right: 52px;
+}
+.third_section .project_wrap .pj_item:last-child {
+  position: absolute;
+  bottom: 220px;
+}
 .third_section .project_wrap .pj_item .pj_info {
   color: #fff;
   font-size: 20px;

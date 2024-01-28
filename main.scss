@@ -179,6 +179,15 @@ ul,li,button,p,div {
         padding-bottom: 200px;
         .pj_item{
             margin-left: 52px;
+            &:nth-child(2){
+                position: absolute;
+                top :32%;
+                right: 52px;
+            }
+            &:last-child{
+                position: absolute;
+                bottom: 220px;
+            }
             .pj_info{
                 color: #fff;
                 font-size: 20px;
